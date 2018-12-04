@@ -11,11 +11,8 @@
 |
 */
 
-Route::get('/', 'RoutesController@home');
-Route::get('/search', 'RoutesController@searchRepo');
+Route::get('/', function(){
+  return view('home');
+});
 
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
+Route::get('/search/{repo}', 'SearchReposController@searchRepo');
