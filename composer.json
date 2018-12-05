@@ -13,7 +13,7 @@
         "knplabs/github-api": "@dev",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/guzzle6-adapter": "@dev",
         "php-http/httplug": "@dev"
     },
     "require-dev": {
