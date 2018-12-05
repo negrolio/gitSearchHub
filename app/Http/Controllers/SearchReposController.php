@@ -45,6 +45,9 @@ class SearchReposController extends Controller
     }
 
     public function findLocalRepos($search){
+        if (!file_exists(base_path() . "/localRepos")) {
+            mkdir(base_path() . "/localRepos", 0777, true);
+        };
         $localReposPath = base_path() . "/localRepos";
         $scandirLocalRepos = scandir($localReposPath);
         $localReposArr = [];

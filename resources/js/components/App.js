@@ -60,6 +60,7 @@ export default class App extends Component {
             })
             .catch(function (error) {
                 console.log(error, 'err in the call');
+                this.handleSpinner();
             });
 
         } else {
@@ -92,7 +93,7 @@ export default class App extends Component {
 
                     {this.state.showSpinner && <Spinner/>}
 
-                    <div>
+                    <div style={{width:"94vw"}}>
                         {this.state.repos && <TableRepos reposArray={this.state.repos}/>}
                     </div>
                 </Grid>
