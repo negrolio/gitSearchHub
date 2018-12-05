@@ -7,7 +7,7 @@ Requeriments:
 - Composer
 - Npm
 
-Clone the repositorie and run <code>composer install</code>, or maybe <code>composer update</code><br>
+Clone the repository and run <code>composer install</code>, or maybe <code>composer update</code><br>
 Rename <code>.env.example</code> file to <code>.env</code><br>
 Run <code>php artisan key:generate</code><br>
 Run <code>php artisan preset react</code> and then <code>npm install && npm run dev</code><br>
