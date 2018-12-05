@@ -1,5 +1,5 @@
 <h1>gitSearchHub</h1>
-<h3>Made it with Laravel and React</h3>
+<h3>Developed with Laravel and React</h3>
 <p>Using <a href=''>KnpLabs</a> github api<br></p>
 
 Requeriments:
