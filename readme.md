@@ -1,6 +1,6 @@
 <h1>gitSearchHub</h1>
 <h3>Developed with Laravel and React</h3>
-<p>Using <a href=''>KnpLabs</a> github api<br></p>
+<p>Using <a href='https://github.com/KnpLabs/php-github-api'>KnpLabs</a> github api<br></p>
 
 Requeriments:
 - PHP
